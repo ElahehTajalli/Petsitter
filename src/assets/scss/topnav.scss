@@ -1,0 +1,33 @@
+.topnav {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  b {
+    font-size: 2rem;
+    font-family: "Shams";
+  }
+  span {
+    font-size: 0.8rem;
+  }
+  .item {
+    height: 100%;
+    padding: 0 15px;
+    color: $--color-white;
+    &:hover {
+      background: lighten($--color-primary, 5%);
+      cursor: pointer;
+    }
+    a {
+      color: $--color-white;
+      text-decoration: unset;
+    }
+  }
+  .el-button {
+    width: 4rem;
+    &:hover {
+      background: lighten($--color-primary, 50%);
+      cursor: pointer;
+    }
+  }
+}
